@@ -2,7 +2,7 @@
 
 The project includes the following features,
 * BPMN editor
-* Minimap to loacte the BPMN diagram in the canva
+* Minimap to locate the BPMN diagram in the canva
 * color picker for BPMN components
 
 ## Install the following packages
