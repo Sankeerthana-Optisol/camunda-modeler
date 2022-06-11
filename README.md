@@ -13,21 +13,21 @@ The project includes the following features,
 
 ## Add the below list of stylesheets and scripts to index.html
 
-  Stylesheets and scripts for modeler
- `<link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/bpmn-js.css">`<br>
- `<link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/diagram-js.css">`<br>
- `<link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/bpmn-font/css/bpmn.css">`<br>
- `<script src="https://unpkg.com/bpmn-js@9.0.3/dist/bpmn-modeler.development.js"></script>`
- `<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>`
+ Stylesheets and scripts for modeler<br>
+ <link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/bpmn-js.css"><br>
+ <link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/diagram-js.css"><br>
+ <link rel="stylesheet" href="https://unpkg.com/bpmn-js@9.0.3/dist/assets/bpmn-font/css/bpmn.css"><br>
+ <script src="https://unpkg.com/bpmn-js@9.0.3/dist/bpmn-modeler.development.js"></script><br>
+ <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
 
   Stylesheets of color picker  
-  `<link rel="stylesheet" href="https://unpkg.com/bpmn-js/dist/assets/diagram-js.css" />`
-  `<link rel="stylesheet" href="https://unpkg.com/bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css" />`
-  `<link rel="stylesheet" href="https://unpkg.com/bpmn-js-color-picker/colors/color-picker.css" />`
+  <link rel="stylesheet" href="https://unpkg.com/bpmn-js/dist/assets/diagram-js.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bpmn-js-color-picker/colors/color-picker.css" />
   
 ### Add the stylings to style.css file for minimap
 
-`.djs-minimap {
+.djs-minimap {
 	cursor: pointer;
 	position: absolute;
 	top: 20px;
@@ -96,4 +96,4 @@ The project includes the following features,
 }
 .djs-minimap .cursor-move {
 	cursor: move;
-}`
+}
