@@ -1,0 +1,9 @@
+.canva{
+    height: 85%;
+}
+.actions{
+    text-align: right;
+}
+::ng-deep .bjs-powered-by{
+    display: none;
+}
