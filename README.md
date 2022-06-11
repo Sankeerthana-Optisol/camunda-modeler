@@ -1,4 +1,4 @@
-# CamundaModeler in Angular
+# Camunda Modeler in Angular
 
 The project includes the following features,
 * BPMN editor
