@@ -7,6 +7,6 @@ The project includes the following features,
 
 ## Install the following packages
 
-:npm i bpmn-js:
-:npm i diagram-js-minimap:
-:npm i bpmn-js-color-picker:
+`npm i bpmn-js`
+`npm i diagram-js-minimap`
+`npm i bpmn-js-color-picker`
