@@ -7,7 +7,6 @@ const routes: Routes = [
   { path: '', component: DiagramComponent },
   { path: 'xmlViewer', component: XMLviewerComponent }
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
