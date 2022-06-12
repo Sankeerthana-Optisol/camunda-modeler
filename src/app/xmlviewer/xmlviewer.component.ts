@@ -17,7 +17,7 @@ export class XMLviewerComponent implements OnInit {
     this.xml = this.appService.getXMl()
     
     if(this.xml == undefined)
-      this.xml = 'Navigate to diagram page to create a workflow'
+      this.xml = 'To design a workflow, go to the diagram page.'
   }
   viewDiagram(){
     this.route.navigate(['']);

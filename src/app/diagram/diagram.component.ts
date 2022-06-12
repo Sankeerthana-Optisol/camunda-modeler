@@ -4,7 +4,6 @@ import minimapModule from 'diagram-js-minimap';
 import BpmnColorPickerModule from 'bpmn-js-color-picker';
 import { Router } from '@angular/router';
 import { AppService } from '../app.service';
-import { XmlParser } from '@angular/compiler';
 
 @Component({
   selector: 'app-diagram',
