@@ -9,43 +9,6 @@ import BpmnColorPickerModule from 'bpmn-js-color-picker';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'camunda-modeler';
 
-  private bpmnJS: BpmnJS
-
-  private diagram: any
-
-  @ViewChild('ref', { static: true }) private el: ElementRef;
-  constructor(){
-    this.bpmnJS = new BpmnJS({
-      additionalModules: [
-        minimapModule,
-        BpmnColorPickerModule
-      ]
-    })
-  }
-
-  ngOnInit(): void{
-    fetch('../assets/template.bpmn')
-      .then(response => response.text()) 
-      .then(xml => {
-          this.bpmnJS.importXML(xml)
-      });
-  }
-
-  ngAfterContentInit(): void {
-    this.bpmnJS.attachTo(this.el.nativeElement);
-  }
-
-  ngOnDestroy(): void {
-    this.bpmnJS.destroy();
-  }
-
-  zoomIn() {
-    this.bpmnJS.get('zoomScroll').stepZoom(1);
-  }
-
-  zoomOut() {
-    this.bpmnJS.get('zoomScroll').stepZoom(-1);
-  }
+  
 }
