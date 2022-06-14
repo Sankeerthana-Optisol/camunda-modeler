@@ -14,8 +14,7 @@ export class XMLviewerComponent implements OnInit {
   constructor(private route: Router, private appService: AppService) { }
 
   ngOnInit(): void {    
-    this.xml = this.appService.getXMl()
-    
+    this.xml = this.appService.getXMl()    
     if(this.xml == undefined)
       this.xml = 'To design a workflow, go to the diagram page.'
   }

@@ -14,8 +14,6 @@ export class DiagramComponent implements OnInit {
 
   private bpmnJS: BpmnJS
 
-  private diagram: any
-
   @ViewChild('ref', { static: true }) private el: ElementRef;
 
   constructor(private route: Router, private appService: AppService){

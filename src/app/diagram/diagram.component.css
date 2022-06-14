@@ -1,13 +1,3 @@
-.canva{
-    height: 85%;
-}
-.actions{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    text-align: right;
-}
 ::ng-deep .bjs-powered-by{
     display: none;
 }
