@@ -12,3 +12,5 @@ The project includes the following features,
 `npm i bpmn-js`
 `npm i diagram-js-minimap`
 `npm i bpmn-js-color-picker`
+
+![plot](./src/docs/DiagramViewer.png)
